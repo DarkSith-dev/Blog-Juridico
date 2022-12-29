@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Noto+Serif+Display:wght@200;300&family=Roboto+Serif:wght@100&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,13 +26,7 @@ header{
     height: 100%;
 
 }
-
-header{
-    width: 100%;
-    height: 100%;
-
-}
-
+ 
 /*Style Banner*/
 
 .img-wrapper{
@@ -103,7 +97,7 @@ header{
     margin-right: 0.5rem;
   }
   
-  nav a{
+nav a{
     color:#f2a65a;
  }
 
@@ -117,83 +111,237 @@ header{
     left: 45rem;
 }
 
-/*Style card*/
+/*--------------Style card*/
 
 
 .card-banner{
     width:100%;
-    height:75vh;
-    background-color:#3a3d46;
+    height:100%;
+    background-color:#F1FAEE;
 }
 
-.card{
-  width: 20rem;
-  height: 25rem;
+.sessao-artigos{
+  width: 95%;
+  height:130vh;
   position: relative;
-  top: 5rem;
-  left: 5rem;
-  margin-left: 5rem;
+  left: 2.5rem;
+  
 }
-.cards {
-  position:relative;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding:0;
+
+#Introduction-Card{
+    position: relative;
+    top: 3rem;
+    left: -25rem;
+    font-size: 2.5rem;
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 2rem ;  
+     margin-bottom: 7rem;
+    border-bottom: 5px solid #f2a65a;
+}
+
+    /*COLUNA1*/
+.coluna1{
+    width: 20%;
+    height:87vh;
+    position: relative;
+    top: -2rem;
+    margin-left: -50;
+    margin: 0;
+
+}
+
+.Card1{
+    width: 100%;
+    height:66%;
+    margin-left: 0;
+}
+
+#IntroductionCard1{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+}
+
+#TextCard{
+    text-align: justify;
+
+}
+
+.Avatar1{
+    width: 20%;
+    height: 20%;
+    border-radius: 30%;
+
+    }
+
+.Avatar-context{
+    position: relative;
+    top: -2.7rem;
+    left: 4rem;
+    width: 90%;
+    height: 20%;
+    margin-bottom:5rem ;
+
+    }
+
+    hr {
+        position: relative;
+        left: 0.5rem;
+        border: 0;
+        border-top: 1px solid #094CFA;
+    }
+
+.Card2{
+    width: 100%;
+    height:36%;
+
+    }
+#IntroductionCard2{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+
+    }
+
+    /*COLUNA2*/
+.coluna2{
+    position: relative;
+    left:17rem;
+    top: -43rem;
+    width: 40%;
+    height:100vh;
+    border-left: 1px solid #c2c1c1;
+     
+    }
+
+.card-wrapper{
+    width: 90%;
+    margin-left: 1rem;
+
+    }
+
+#IntroductionCard3{
+    font-size: 1.5rem;
+    text-align:justify ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+    
+    }
+
+.Avatar2{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 1rem;
+    border-radius: 30%;
+    
+    }
+
+.Avatar-context1{
+    position: relative;
+    top: -2.7rem;
+    left: 5rem;
+    width: 90%;
+    height: 20%;
+    margin-bottom:5rem ;
+    
+    }
+
+        /*COLUNA3*/   
+.coluna3{
+    width: 17%;
+    height:100vh;
+    position: relative;
+    top: -90.5rem;
+    left: 50rem;
+    margin-left: -50;
+    margin: 0;
+    border-left: 1px solid #c2c1c1;
+    /*background-color: #f2a65a;*/
+    
+    }
+
+.card-wrapper1{
+    width: 90%;
+    position: relative;
+    left: 1rem;
+        
+    
+    }
+
+#IntroductionCard3{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+    
+    }
+
+#IntroductionCard4{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+        
+    }
+
+    /*COLUNA4*/
+.coluna4{
+    width: 18%;
+    height:100vh;
+    position: relative;
+    top: -140rem;
+    left: 66rem;
+    margin-left: -50;
+    margin: 0;
+    border-left: 1px solid #c2c1c1;
+
+        
+    }
+#IntroductionCard5{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+            
+    }
+
+#Name{
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 5rem ;
+    position: relative;
+    left: -1rem;
+}
+
+#Prof{
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 2rem ;
+    position: relative;
+    left: -7.2rem;
+}
+
+.block1{
+    position: relative; 
+    left: 1rem;
+}
+
+.blockName{
+font-size: 1rem;
+}
+
+.blockVideo{
+    position: relative;
+    left: 1.2rem;
+    top: 1rem;
+
 }
 
 
-.cards-item{
-  display: flex;
-  justify-content: space-around ;
-  margin-bottom: 2rem;
-}
 
-.card-image{
-  width: 100%;
-  height: 100%;
-  background-color: #262626;
-}
-
-.card-image img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  transition : opacity 0.8;
-}
-
-.card:hover .card-image img{
-  opacity: 0.5;
-}
-
-.card-content{
-  width: 100%;
-  height: 100vh;
-}
-
-.card-title{
-  font-family: var(--font-primary);
-  font-size: 2rem;
-}
-
-.card-text{
-  font-family: var(--font-secundary);
-  font-size: 1rem;
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
-  text-align: justify;
-}
-
-#card-button{
-  position: relative;
-  font-family:var(--font-secundary);
-  width: 8rem;
-  height: 2.5rem;
-  left: 6rem;
-  top: -0.6rem;
-  background-color: #ff952bdd;
-}
 
 
 
@@ -201,8 +349,9 @@ header{
 
 /*-------STYLE  FIM----*/
 .END{
+    
     width: 100%;
-    height: 20rem;
+    height: 40vh;
    background-color: #090b0c;
   }
 
@@ -210,8 +359,9 @@ header{
   #Introduction-end{
       position: relative;
       font-family: var(--font-secundary);
+      align-self: center;
       font-size: 2.5rem;
-      left: -13rem;
+      left: -16rem;
       top: 2rem;
       margin: auto;
       margin-left:auto ;
@@ -221,62 +371,525 @@ header{
   }
 
 
-  #Introduction-user{
-   font-family: var(--font-secundary);
-    text-align: start;
-    color:white ;
+  .icon-btn {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 30px;
+    text-indent: 30px;
+  }
+  
+  #icon-link {
+    color: #55606A;
+  }
+  
+  #icon-link:hover {
+    color: blueviolet;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 
-  #Text-Oab{
-    font-family: var(--font-tertiary);
-    font-size: 1rem; 
-    text-align: start;
-    color: white;
-  }
-  #Text-Email{
-    font-family: var(--font-action);
-    font-size: 1rem;
-    text-align: start;
-    color:white;
-
+  #linkedin:hover{
+    color: #48c4d2;
   }
 
 
-  /*Style secundarios user1 */
-  .User1{
-      position: relative;
-      width: 20rem;
-      height: 10rem;
-      margin: auto;
-      margin-left: auto ;
-      margin-right: 2rem ;
-      left: -60rem;
-      top: 6rem;
-     
+  #gmail:hover{
+    color: #f00;
   }
 
-  /*Style secundarios user2 */
-  .User2{
-      position: relative;
-      width: 20rem;
-      height: 10rem;
-      margin: auto;
-      margin-left: auto ;
-      margin-right: 2rem ;
-      left:-28rem;
-      top: -4rem;
-     
+
+  #instagram:hover{
+    color: #fb913f;
+
   }
 
-    /*Style secundarios user3 */
-    .User3{
-        position: relative;
-        width: 12rem;
-        height: 10rem;
-        margin: auto;
-        margin-left: auto ;
-        margin-right: 2rem ;
-        left:-5rem;
-        top: -14rem;
+
+   #linkedin{
+    position: relative;
+    left: 31.5rem;
+    top: 4.7rem;
+
+   }
+   
+   #gmail{
+    position: relative;
+    left: 40rem;
+    top: -0.96rem;
+
+   }
+
+   #instagram{
+    position: relative;
+    left: 49rem;
+    top: 1.9rem;
+
+   }
+
+/*-------RESPONSIVIDADE----*/
+
+/*RESPOSIVO MOBILE */
+@media screen and (max-width:812px) and (min-width:320px){    
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+
+}   
+   
+    .img-wrapper{
+        width: 100vh;
+        height: 100vh;
        
+      
     }
+    
+    .img-wrapper img{
+        width: 10vh;
+        height: 100%;
+        opacity: 1;
+        
+    }
+    
+    .banner{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    #Introduction-banner{
+        position: relative;
+        font-size: 1rem;
+        font-family: var(--font-primary);
+        left:  70rem;
+        right: 5rem;
+        padding:auto;
+        padding-left:  1rem;
+        padding-right: 1rem;
+        margin:auto; 
+        margin-left: auto;
+        margin-right: -20rem;
+        margin-bottom: auto;
+        color:	white;
+        text-shadow: .3rem, 4rem 2px rgba(0, 0, 0, 0.4);
+    
+    }
+    
+    #Text-Banner{
+        position: relative;
+        font-family: var(--font-secundary);
+        text-align: center;
+        font-size: 1.4rem;
+        left: 600rem;
+        top: 1.5rem;
+        padding:auto;
+        padding-left:  1rem;
+        padding-right: 1rem;
+        margin:auto; 
+        margin-left: auto;
+        margin-right: -20rem;
+        margin-inline-start: 0px;
+        margin-bottom: auto;
+        color: #f2a65a;
+        text-shadow: .3rem, 4rem 2px rgba(0, 0, 0, 0.4);
+    
+    }
+    
+    
+}
+
+/*RESPONSIVO TABLE*/
+@media screen and (max-width:1180px) and (min-width:812px){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    header{
+        width: 100%;
+        height: 100vh;
+    
+    }
+
+.img-wrapper{
+        width: 334.5%;
+        height: 100vh;
+       
+      
+    }
+    
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        
+    }
+    
+    .banner{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    
+    #Introduction-banner{
+        position: relative;
+        font-size: 6rem;
+        font-family: var(--font-primary);
+        left:  70rem;
+        right: 5rem;
+        padding:auto;
+        padding-left:  1rem;
+        padding-right: 1rem;
+        margin:auto; 
+        margin-left: auto;
+        margin-right: -20rem;
+        margin-bottom: auto;
+        color:	white;
+        text-shadow: .3rem, 4rem 2px rgba(0, 0, 0, 0.4);
+    
+    }
+    
+#Text-Banner{
+    position: relative;
+    font-family: var(--font-secundary);
+    text-align: center;
+    font-size: 3rem;
+    left: 80rem;
+    top: 4rem;
+    padding:auto;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    margin:auto; 
+    margin-left: auto;
+    margin-right: -20rem;
+    margin-inline-start: 0px;
+    margin-bottom: auto;
+    color: #f2a65a;
+    text-shadow: .3rem, 4rem 2px rgba(0, 0, 0, 0.4);
+    
+    }
+
+    /*Artigos*/
+.card-banner{
+    width:334.5%;
+    height:100vh;
+    background-color:#F1FAEE;
+    }
+    
+.sessao-artigos{
+    width: 95%;
+    height:100vh;
+    position: relative;
+    left: 5rem;
+    
+      
+    }
+    
+#Introduction-Card{
+    position: relative;
+    top: 6rem;
+    left: -50rem;
+    font-size: 6rem;
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 2rem ;  
+    margin-bottom: 7rem;
+    border-bottom: 5px solid #f2a65a;
+        
+    }
+
+        /*COLUNA1*/
+.coluna1{
+    width: 20%;
+    height:75vh;
+    position: relative;
+    top:6.7rem;
+    margin-left: -50;
+    margin: 0;
+}
+
+.Card1{
+    width: 100%;
+    height:66%;
+    margin-left: 0;
+}
+
+#IntroductionCard1{
+    font-size: 3rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+}
+
+#TextCard{
+    text-align: justify;
+    font-size: 2rem;
+
+}
+
+.Avatar1{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    top: 1rem;
+    border-radius: 30%;
+
+    }
+
+.Avatar-context{
+    position: relative;
+    top: -5rem;
+    left:10rem;
+    width: 90%;
+    height: 20%;
+    margin-bottom:5rem ;
+
+    }
+
+hr {
+    position: relative;
+    top:-9rem;
+    left: 0.5rem;
+    border: 0;
+    border-top: 1px solid #094CFA;
+    }
+
+.Card2{
+    position: relative;
+    width: 100%;
+    height:36%;
+    top: -9rem;
+
+
+    }
+#IntroductionCard2{
+    font-size: 3rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+
+    }
+
+    /*COLUNA2*/
+.coluna2{
+    position: relative;
+    left:45rem;
+    top: -60rem;
+    width: 40%;
+    height:70vh;
+    border-left: 1px solid #c2c1c1;
+   
+    
+    }
+
+.card-wrapper{
+    width: 90%;
+    position: relative;
+    left: 2rem;
+    
+
+    }
+
+#IntroductionCard3{
+    font-size: 6rem;
+    text-align:justify ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+    
+    }
+
+.Avatar2{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 1rem;
+    border-radius: 30%;
+    
+    }
+
+.Avatar-context1{
+    position: relative;
+    top: -2.7rem;
+    left: 6rem;
+    width: 90%;
+    height: 20%;
+    margin-bottom:5rem ;
+    
+    }
+
+        /*COLUNA3*/   
+.coluna3{
+    width: 17%;
+    height:75vh;
+    position: relative;
+    top: -122rem;
+    left: 125rem;
+    margin-left: -50;
+    margin: 0;
+    border-left: 1px solid #c2c1c1;
+    
+    
+    }
+
+.card-wrapper1{
+    width: 90%;
+    position: relative;
+    left: 1rem;
+        
+    
+    }
+
+#IntroductionCard3{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+    
+    }
+
+#IntroductionCard4{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+        
+    }
+
+    /*COLUNA4*/
+.coluna4{
+    width: 18%;
+    height:70vh;
+    position: relative;
+    top: -190rem;
+    left: 159.5rem;
+    margin-left: -50;
+    margin: 0;
+    border-left: 1px solid #c2c1c1;
+    
+
+        
+    }
+#IntroductionCard5{
+    font-size: 1.5rem;
+    text-align:start ;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+            
+    }
+
+#Name{
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 5rem ;
+    position: relative;
+    left: -1rem;
+}
+
+#Prof{
+    margin: auto;
+    margin-left:auto ;
+    margin-right: 2rem ;
+    position: relative;
+    left: -7.2rem;
+}
+
+.block1{
+    position: relative; 
+    left: 1rem;
+}
+
+.blockName{
+font-size: 1rem;
+}
+
+.blockVideo{
+    position: relative;
+    left: 1.2rem;
+    top: 1rem;
+
+}
+
+.END{
+    
+    width: 334.5%;;
+    height: 40vh;
+   background-color: #090b0c;
+  }
+
+
+  #Introduction-end{
+      position: relative;
+      font-family: var(--font-secundary);
+      align-self: center;
+      font-size: 2.5rem;
+      left: -16rem;
+      top: 2rem;
+      margin: auto;
+      margin-left:auto ;
+      margin-right: 2rem ;
+      color:#d98324;
+      
+  }
+
+
+  .icon-btn {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 30px;
+    text-indent: 30px;
+  }
+  
+  #icon-link {
+    color: #55606A;
+  }
+  
+  #icon-link:hover {
+    color: blueviolet;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  #linkedin:hover{
+    color: #48c4d2;
+  }
+
+
+  #gmail:hover{
+    color: #f00;
+  }
+
+
+  #instagram:hover{
+    color: #fb913f;
+
+  }
+
+
+   #linkedin{
+    position: relative;
+    left: 31.5rem;
+    top: 4.7rem;
+
+   }
+   
+   #gmail{
+    position: relative;
+    left: 40rem;
+    top: -0.96rem;
+
+   }
+
+   #instagram{
+    position: relative;
+    left: 49rem;
+    top: 1.9rem;
+
+   }
+
+
+    
+
+}
+

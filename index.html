@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,7 +18,7 @@
            <!---BANNER CONSTRUCTION--->
            <header>
             <div class="img-wrapper">
-                <img src="C:\Users\diego\Work\ProjetosGitub\Blog de direto\Imagens\Banner.jpg" class="">
+                <img src="Imagens\Banner.jpg" class="">
             </div>
             <div class="banner">
                 <h1 class="col-6" id="Introduction-banner">Blog Jurídico</h1>
@@ -32,25 +34,15 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"></button>
                     <div class="collapse navbar-collapse "  id="navbarNav">                  
                         <ul class="navbar-nav  mr-auto " id="menu"> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> Previdenciário</a>
-                            </li>    
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tributario</a>
-                            </li>
                              <li class="nav-item">
-                                <a class="nav-link " href="#">Consumidor</a> 
+                                 <a class="nav-link" href="#">Home</a>
                              </li>
-                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                  Contatos
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                             <li data-menuanchor="secondPage" class="nav-item">
+                                 <a class="nav-link" href="#Artigos">Artigos</a>
                               </li>
+                             <li data-menuanchor="thirdPage" class="nav-item">
+                                <a class="nav-link" href="#Contatos">Contatos</a>
+                             </li>
                         </ul>
                      </div>         
                     </nav>
@@ -60,86 +52,180 @@
         <!---CARD CONSTRUCTION--->
         <div class="card-banner">
             <section class="sessao-artigos">
-              <ul class="cards">
-                <li class="cards-item">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="" alt="">
+              <div>
+                <h1 class=" col-4" id="Introduction-Card">Ultimas Atualizações</h1>
+              </div>
+              <div class="coluna1">
+                  <article class="Card1">
+                    <div>
+                      <h2 class=" col-12" id="IntroductionCard1" >
+                        <a>Métodos alternativos de resolução de conflitos e a nova Lei de Licitações</a>
+                      </h2>
                     </div>
-                    <div class="card-content">
-                      <div class="card-title">Flex</div>
-                      <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                      <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                    <div>
+                      <p class=" col-12" id="TextCard" >Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever 
+                        since the 1500s.</p>
+
+                      <p class=" col-12" id="TextCard">It is a long established fact that a reader will be distracted by the
+                         readable</p>
                     </div>
-                  </div>
-                </li>
-                <li class="cards-item">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="" alt="">
+                    <div>
+                      <img class="Avatar1" src="Imagens\user1.jpg">
                     </div>
-                    <div class="card-content">
-                      <div class="card-title">Flex</div>
-                      <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                      <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                    <div class="Avatar-context">
+                      <dl>
+                        <dt>Jammil Holanda Freitas</dt>
+                        <dd>Advogado</dd>
+                      </dl>
                     </div>
-                  </div>
-                </li>
-                <li class="cards-item">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="" alt="">
+                  </article>
+
+                <hr>
+
+                  <article class="Card2">
+                    <div>
+                      <h2 class=" col-12" id="IntroductionCard2">
+                        <a>A Mediação da Conciliação e a Arbitragem</a>
+                      </h2>
                     </div>
-                    <div class="card-content">
-                      <div class="card-title">Flex</div>
-                      <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                      <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                    <div>
+                      <p class=" col-12" id="TextCard">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever 
+                        since the 1500s.</p>
                     </div>
+                  </article>
+              </div>
+
+              <div class="coluna2">
+                  <article>
+                    <div>
+                      <figure>
+                        <img class="card-wrapper" src="Imagens\arbitragem.jpg">
+                      </figure>
+                    </div>
+                    <div>
+                      <h2 class="col-12, " id="IntroductionCard3" >
+                        <a>STJ reconhece que ação judicial de afretador importaria 
+                          em renúncia à cláusula arbitral do contrato</a>
+                      </h2>
+                    </div>
+                    <div>
+                      <p class=" col-12" id="TextCard">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text 
+                        ever since the 1500s, when an unknown printer 
+                        took a galley of type and scrambled it to make 
+                        a type specimen book.</p>
+                    </div>
+                    <div>
+                      <div>
+                        <img class="Avatar2" src="Imagens\user2.jpg">
+                      </div>
+                      <div class="Avatar-context1">
+                        <dl>
+                          <dt>Olympio Carvalho</dt>
+                          <dd>Advogado</dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </article>
+              </div>
+
+              <div class="coluna3">
+                <article>
+                  <div>
+                    <figure>
+                      <img class="card-wrapper1" src="Imagens\startup.jpg">
+                    </figure>
                   </div>
-                </li>
-              </ul>     
-            </section> 
-        </div>
-        <div class="card-banner">
-          <section class="sessao-artigos">
-            <ul class="cards">
-              <li class="cards-item">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="">
+                  <div>
+                    <h2 class=" col-12" id="IntroductionCard3">
+                      <a>Utilização da Arbitragem nas Startups</a>
+                    </h2>
                   </div>
-                  <div class="card-content">
-                    <div class="card-title">Flex</div>
-                    <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                    <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                  <div>
+                    <p class=" col-12">Feito por Rodrigo Picon</p>
                   </div>
-                </div>
-              </li>
-              <li class="cards-item">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="">
+                </article>
+
+                <hr>
+
+                <article>
+                  <div>
+                    <figure>
+                      <img class="card-wrapper1" src="Imagens\fisioterapia.jpg">
+                    </figure>
                   </div>
-                  <div class="card-content">
-                    <div class="card-title">Flex</div>
-                    <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                    <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                  <div>
+                    <h2 class=" col-12" id="IntroductionCard4">
+                      <a >Arbitragem Fisioterapêutica</a>
+                    </h2>
                   </div>
-                </div>
-              </li>
-              <li class="cards-item">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="">
+                  <div>
+                    <p class=" col-12">Feito por Rodrigo Picon</p>
                   </div>
-                  <div class="card-content">
-                    <div class="card-title">Flex</div>
-                    <p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                    <button class="btn btn-dark" id="card-button">Saiba Mais</button>
+                </article>
+              </div>
+
+              <div class="coluna4">
+                <article>
+                  <div>
+                    <h2  class=" col-12" id="IntroductionCard5">
+                      <a>
+                        O papel do árbitro no atual ordenamento jurídico
+                      </a>
+                    </h2>
                   </div>
-                </div>
-              </li>
-            </ul>     
+                  <div>
+                    <p class=" col-12">It is a long established fact that a reader will be distracted by the
+                      readable...</p>
+                  </div>
+                  <div>
+                    <img class="Avatar1" src="Imagens\user3.jpg">
+                  </div>
+                  <div class="Avatar-context ">
+                    <dl>
+                      <dt class=" col-9" id="Name">Amanda Cabral</dt>
+                      <dd class=" col-5" id="Prof">Advogado</dd>
+                    </dl>
+                  </div>
+                </article>
+
+                <hr>
+                
+                <article>
+                  <small class="block1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="22" viewBox="0 0 28 22">
+                      <defs>
+                        <clipPath id="clip-headphones">
+                          <rect width="30" height="30"></rect>
+                        </clipPath>
+                      </defs>
+                      <g id="headphones" clip-path="url(#clip-headphones)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(-3680 -609)">
+                          <path id="Subtraction_1" data-name="Subtraction 1" d="M5,12H5A5.274,5.274,0,0,1,0,6.5,5.274,5.274,0,0,1,5,1V12Z" transform="translate(3680 619)"></path>
+                          <rect id="Rectangle_18" data-name="Rectangle 18" width="2" height="11" transform="translate(3686 620)"></rect>
+                          <path id="Subtraction_5" data-name="Subtraction 5" d="M1.243,12H.045C.015,11.67,0,11.334,0,11A11,11,0,0,1,18.778,3.222,10.925,10.925,0,0,1,22,11c0,.331-.015.667-.045,1h-1.2a14.108,14.108,0,0,0-2.685-6.241A8.982,8.982,0,0,0,11,2,8.982,8.982,0,0,0,3.929,5.759,14.109,14.109,0,0,0,1.243,12Z" transform="translate(3683 609)"></path>
+                          <path id="Subtraction_6" data-name="Subtraction 6" d="M5,0H5A5.274,5.274,0,0,0,0,5.5,5.274,5.274,0,0,0,5,11V0Z" transform="translate(3708 631) rotate(180)"></path>
+                          <rect id="Rectangle_23" data-name="Rectangle 23" width="2" height="11" transform="translate(3700 620)"></rect>
+                          <path id="Path_8" data-name="Path 8" d="M.156-.031,2.125-1.687,2,2H0Z" transform="translate(3683 619)"></path>
+                          <path id="Path_9" data-name="Path 9" d="M1.969-.031,0-1.687.125,2h2Z" transform="translate(3702.875 619)"></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <span class="blockName">Post Jurídico / Podcast</span>
+                  </small>
+                  <div>
+                    <iframe 
+                    class="blockVideo" width="250" height="200" src="https://www.youtube.com/embed/-JblZSs0uR8?autoplay=1&mute=1&controls=0" title="" frameborder="0" allow="accelerometer; autoplay-on; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+
+                </article>
+              </div>
+
+
+              
           </section> 
       </div>
 
@@ -147,21 +233,22 @@
         <div class="END">
                 <div>
                     <h2 class="col-5" id="Introduction-end">Tire suas dúvidas</h2>
-                </div>
-                <div class="User1">
-                    <h4 class="" id="Introduction-user">Luis felipe tenorio</h4>
-                    <h5 class="" id="Text-Oab">OAB RJ 123.456</h5>
-                    <a class="" id="Text-Email" href="#Luis">Luis147@gmail.com</a>
-                </div>
-                <div class="User2">
-                    <h4 class="" id="Introduction-user">Diego Alves Rodrigues</h4>
-                    <h5 class="" id="Text-Oab">OAB RJ 123.456</h5>
-                    <a class="" id="Text-Email" href="#Diego">Diego147@gmail.com</a>
-                </div>
-                <div class="User3">
-                    <h4  class="" id="Introduction-user">Felipe Rodrigues</h4>
-                    <h5 class="" id="Text-Oab">OAB RJ 123.456</h5>
-                    <a class="" id="Text-Email" href="#Felipe">Felipe123@gmail.com</a>
+                <div>
+                  <li>
+                    <a href="" class="icon-btn" target="blank" id="icon-link">
+                      <i class="fab fa-linkedin" id="linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="icon-btn" target="blank" id="icon-link">
+                        <i class="fab fa-instagram" id="instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="icon-btn" target="blank" id="icon-link">
+                      <i class="fas fa-envelope" id="gmail"></i>
+                    </a>
+                  </li>
                 </div>
         </div>
     </div> 
